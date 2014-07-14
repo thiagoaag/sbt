@@ -43,4 +43,6 @@ object AppBuild extends Build {
 
 
 # create an initial plugins.sbt file
-echo 'addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")' > project/plugins.sbt
+echo 'addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
+
+addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")' > project/plugins.sbt
